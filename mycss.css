@@ -42,27 +42,27 @@ h1{
 
 /*D3*/
 .bar {
-	fill: rgb(162,200,22);
+	fill: violet;
 }
 .bar:hover {
-	fill: brown;
+	fill: rgb(128,0,128);
 }
 .axis {
 	font: 10px sans-serif;
 }
 .axis path,
 .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
 }
 
 .x.axis path {
-  display: none;
+	display: none;
 }
 
 .line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 2px;
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 2px;
 }
