@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Visualizing information with D3 </title>
+		<!-- utf-8 -->
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">		
+		<!-- CSS --> 
+		<link href='mycss.css' type='text/css' rel='stylesheet'/>
+		<!-- Google font-->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic|Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+		<!-- D3 -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<!-- Put your own js code below. e.g, a6_bargraph_rayhong.js / a6_scatterplot_rayhong.js -->
+		<script src="a7_bargraph_shali.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<div class="header"> <a href="http://">Sha Li</a>, 23th of Nov., 2016 </div>
+			<h1> Car Manufacturer </h1>
+			<div id="controller">
+				Sorting Criterion:
+				<form id = "radio">
+					<input type = "radio" id="radio_1" name="criteria" value="1">	<label for="radio_1"> net income </label></input>
+					<input type = "radio" id="radio_2" name="criteria" value="2">	<label for="radio_2"> profit percentage </label></input>
+					<input type = "radio" id="radio_3" name="criteria" value="3"> <label for="radio_3">retail price </label></input>
+					<input type = "radio"= "radio" id="radio_4" name="criteria" value="4"> <label for="radio_4"> dealer cost</label></input>
+					<input type = "radio" = "radio" id="radio_5" name="criteria" value="5"> <label for="radio_5"> mpg - city</input>
+					<input type = "radio" = "radio" id="radio_6" name="criteria" value="6"> <label for="radio_6"> mpg - highway</input>
+				</form>
+			</div>
+			<div class="vis">
+			</div>
+			<div class="description"> This visualization describes net income, profit percentage, retail price, dealer cost, mpg_city and mpg_highway of various car manufacturers </div>
+		</div>
+	</body>
+</html>
